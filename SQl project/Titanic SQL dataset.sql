@@ -71,7 +71,6 @@ sum(case when Sex = "male" then 1 else 0 end) as num_male,
 sum(case when Sex = "female" then 1 else 0 end) as num_female 
 from titanic;
 
-
 -- 16. Select all passengers who traveled in a cabin that was not shared by other passengers.
 
 select * from titanic where cabin not in 
